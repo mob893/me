@@ -1,0 +1,13 @@
+.net {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+}
+
+.node {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px 0 10px 0;
+    background-color: rgb(214, 214, 214);
+}
