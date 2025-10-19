@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Nguyễn Phú Nhuận</title>
+  <style>
+    /* ===== Reset cơ bản ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    /* ===== Hero Section ===== */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #00adb5, #393e46);
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background: #fff;
+      color: #00adb5;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    .hero a:hover {
+      background: #00adb5;
+      color: #fff;
+    }
+
+    /* ===== Portfolio Section ===== */
+    .portfolio {
+      padding: 80px 50px;
+      text-align: center;
+    }
+
+    .portfolio h3 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #222;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-10px);
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project h4 {
+      margin: 15px;
+      font-size: 1.2rem;
+      color: #00adb5;
+    }
+
+    .project p {
+      margin: 0 15px 20px;
+      font-size: 0.95rem;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 50px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>Nguyễn Phú Nhuận</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#portfolio">Dự án</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <h2>Xin chào, tôi là Nhuận 👋</h2>
+    <p>Tôi là một người yêu thích phát triển bản thân và chia sẻ giá trị qua công việc kinh doanh và sáng tạo nội dung.</p>
+    <a href="#portfolio">Xem Dự Án</a>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="portfolio">
+    <h3>Dự Án Của Tôi</h3>
+    <div class="projects">
+      <div class="project">
+        <img src="https://picsum.photos/400/250?random=1" alt="Project 1">
+        <h4>Website Cá Nhân</h4>
+        <p>Một website giới thiệu bản thân và chia sẻ bài viết, giúp xây dựng thương hiệu cá nhân.</p>
+      </div>
+      <div class="project">
+        <img src="https://picsum.photos/400/250?random=2" alt="Project 2">
+        <h4>Landing Page Sản Phẩm</h4>
+        <p>Trang giới thiệu sản phẩm độc đáo cho doanh nghiệp trong lĩnh vực sức khỏe & làm đẹp.</p>
+      </div>
+      <div class="project">
+    /* ===== Reset cơ bản ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00adb5;
+    }
+
+    /* ===== Hero Section ===== */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #00adb5, #393e46);
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background: #fff;
+      color: #00adb5;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    .hero a:hover {
+      background: #00adb5;
+      color: #fff;
+    }
+
+    /* ===== Portfolio Section ===== */
+    .portfolio {
+      padding: 80px 50px;
+      text-align: center;
+    }
+
+    .portfolio h3 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #222;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-10px);
+    }
+
+    .project img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project h4 {
+      margin: 15px;
+      font-size: 1.2rem;
+      color: #00adb5;
+    }
+
+    .project p {
+      margin: 0 15px 20px;
+      font-size: 0.95rem;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 50px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
