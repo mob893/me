@@ -1,0 +1,85 @@
+/* ===== Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 40px 30px;
+    }
+
+    /* ===== Header ===== */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #0077b6;
+    }
+
+    .back-btn {
+      text-decoration: none;
+      background: #222;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #555;
+    }
+
+    /* ===== Post Content ===== */
+    article h2 {
+      font-size: 1.8rem;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    article .meta {
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 25px;
+    }
+
+    article p {
+      margin-bottom: 18px;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    article blockquote {
+      border-left: 4px solid #0077b6;
+      padding-left: 15px;
+      color: #555;
+      font-style: italic;
+      margin: 25px 0;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
